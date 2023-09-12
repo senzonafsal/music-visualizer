@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Audio Visualizer with React, Three.js, and Tone.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This project aims to create a real-time audio visualizer using React for the frontend, Three.js for 3D rendering, and Tone.js for audio manipulation. The visualizer synchronizes with the audio played, producing 3D line segments that change with the waveform.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Real-time audio visualization
+- 3D graphics rendered with Three.js
+- Audio handled by Tone.js
+- Toggle to start and stop visualization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To set up the project locally, you will need Node.js and npm installed. Once those are set up, follow these steps:
 
-### `npm test`
+1. Clone the repository
+    ```bash
+    git clone https://github.com/senzonafsal/music-visualizer
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate into the project directory
+    ```bash
+    cd music-visualizer
+    ```
 
-### `npm run build`
+3. Install dependencies
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will start the development server and open the application in your default web browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Click on the 'Start Visualizer' button to begin the visualization.
+2. If you wish to stop it, click on the 'Stop Visualizer' button.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technologies Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Three.js
+- Tone.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions are welcome! Feel free to open a pull request or issue on GitHub.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License.
