@@ -1,4 +1,4 @@
-# Audio Visualizer with React, Three.js, and Tone.js
+# Music Visualizer with React, Three.js, and Tone.js
 
 ## Introduction
 
